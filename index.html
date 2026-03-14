@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUAIS Login</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f9faff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(to right, #a0cfff, #ffffff);
+            height: 80px;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            color: #007bff;
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+
+        .login-box {
+            border: 1px solid #ccc;
+            padding: 30px 40px;
+            text-align: left;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .login-box label {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+        }
+
+        .login-box input {
+            padding: 5px;
+            margin-bottom: 15px;
+            width: 200px;
+        }
+
+        .login-box button {
+            padding: 5px 15px;
+            background: #333;
+            color: #ffd700;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #333;
+            border-top: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        footer a {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header></header>
+
+<div class="top-right">
+    For Faculty of Engineering: <small>Beta Version</small>
+</div>
+
+<main>
+    <h1>PUAIS</h1>
+
+    <div class="login-box">
+        <form>
+            <div>
+                <label for="roll">Student Roll :</label>
+                <input type="text" id="roll" name="roll">
+            </div>
+            <div>
+                <label for="password">Password :</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div style="text-align:center;">
+                <button type="submit">Sign In</button>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer>
+    Copyright ©2011-2026 <strong>Premier University</strong>, All Rights Reserved. <br>
+    <a href="#">Software Section</a>, Department of IT, <strong>Premier University</strong> (Design & Develop).
+</footer>
+
+</body>
+</html>
